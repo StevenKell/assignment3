@@ -1,0 +1,16 @@
+
+
+@keyframes minute-hand {
+
+    0% {transform-origin: center left; transform: rotate(-90deg);}
+    
+    100%{transform-origin: center left; transform: rotate(250deg);}
+    
+    }
+    
+    @keyframes hour-hand {
+        0% {transform-origin: center left; transform: rotate(0deg);}
+   
+    100%{transform-origin: center left; transform: rotate(30deg);}
+    
+    }

@@ -1,0 +1,56 @@
+.hero-image-index{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("../images/manhattan_skyline_new_york_panorama.jpg"); 
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+   
+}
+.hero-image-index .hero-tint{
+    width: 30%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: grid;
+    top: 50%;
+}
+.hero-image-index .hero-button{
+    
+    border-radius: 5px;
+    padding: 
+    calc(10px + 0.15vw)
+    calc(15px + 0.15vw);
+    background: rgba(218, 25, 11, 0.8);
+    color: rgb(241, 200, 15);
+    font-size: calc(8px + 1vw);
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    width: 11%;
+    top: 35%;
+    left: 25%;
+    
+}
+.hero-image-index .hero-button:hover{
+    background: rgba(180, 174, 174, 0.3);
+    color: rgb(253, 210, 18);
+    }
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 285px);
+    place-items: center;
+    gap: 20px;
+    padding-left: 5%;
+    opacity: 0;
+    animation: fadein 3s;
+    animation-fill-mode: both;
+}
+.gallery-img{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-text{
+    font-size: large;
+    color: cornsilk;
+}
